@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:navigationIcon="@drawable/ic_back">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:text="Tambah Pelaporan"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginStart="20dp"-->
+                    <!--                        android:layout_marginTop="10dp"-->
+                    <!--                        android:layout_marginEnd="20dp"-->
+                    <!--                        android:orientation="vertical">-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:text="Nama Pengguna"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="14sp" />-->
+
+                    <!--                        <com.google.android.material.textfield.TextInputEditText-->
+                    <!--                            android:id="@+id/inputNama"-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="50dp"-->
+                    <!--                            android:backgroundTint="#00BCD4"-->
+                    <!--                            android:hint="Masukan nama lengkap"-->
+                    <!--                            android:imeOptions="actionNext"-->
+                    <!--                            android:inputType="textPersonName"-->
+                    <!--                            android:maxLines="1"-->
+                    <!--                            android:textColor="@color/black"-->
+                    <!--                            android:textSize="16sp" />-->
+
+                    <!--                    </LinearLayout>-->
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="100dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Isi Laporan"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/inputBerat"
+                                android:layout_marginTop="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:backgroundTint="#03A9F4"
+                                android:hint="isi laporan"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLines="10"
+                                android:textColor="@color/black"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <!--                        <LinearLayout-->
+                        <!--                            android:layout_width="0dp"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_marginStart="5dp"-->
+                        <!--                            android:layout_weight="1"-->
+                        <!--                            android:orientation="vertical">-->
+
+                        <!--                            <TextView-->
+                        <!--                                android:layout_width="wrap_content"-->
+                        <!--                                android:layout_height="wrap_content"-->
+                        <!--                                android:text="Harga (per Kg)"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="14sp" />-->
+
+                        <!--                            <com.google.android.material.textfield.TextInputEditText-->
+                        <!--                                android:id="@+id/inputHarga"-->
+                        <!--                                android:layout_width="match_parent"-->
+                        <!--                                android:layout_height="50dp"-->
+                        <!--                                android:backgroundTint="#03A9F4"-->
+                        <!--                                android:focusableInTouchMode="false"-->
+                        <!--                                android:hint="Rp. 1500/Kg"-->
+                        <!--                                android:maxLines="1"-->
+                        <!--                                android:textColor="@color/black"-->
+                        <!--                                android:textSize="16sp" />-->
+
+                        <!--                        </LinearLayout>-->
+
+                    </LinearLayout>
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:layout_marginStart="20dp"-->
+                    <!--                        android:layout_marginTop="20dp"-->
+                    <!--                        android:layout_marginEnd="20dp"-->
+                    <!--                        android:orientation="horizontal">-->
+
+                    <!--                        <LinearLayout-->
+                    <!--                            android:layout_width="match_parent"-->
+                    <!--                            android:layout_height="wrap_content"-->
+                    <!--                            android:orientation="vertical">-->
+
+                    <!--                            <TextView-->
+                    <!--                                android:layout_width="wrap_content"-->
+                    <!--                                android:layout_height="wrap_content"-->
+                    <!--                                android:text="Tanggal Penjemputan"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textSize="14sp" />-->
+
+                    <!--                            <com.google.android.material.textfield.TextInputEditText-->
+                    <!--                                android:id="@+id/inputTanggal"-->
+                    <!--                                android:layout_width="match_parent"-->
+                    <!--                                android:layout_height="50dp"-->
+                    <!--                                android:backgroundTint="#03A9F4"-->
+                    <!--                                android:focusableInTouchMode="false"-->
+                    <!--                                android:hint="Masukan tanggal"-->
+                    <!--                                android:imeOptions="actionNext"-->
+                    <!--                                android:inputType="date"-->
+                    <!--                                android:maxLines="1"-->
+                    <!--                                android:textColor="@color/black"-->
+                    <!--                                android:textSize="16sp" />-->
+
+                    <!--                        </LinearLayout>-->
+
+                    <!--                    </LinearLayout>-->
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:layout_marginTop="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/profile_pic"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCheckout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="30dp"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/Theme.MaterialComponents"
+                app:backgroundTint="#03A9F4"
+                app:cornerRadius="50dp"
+                app:elevation="5dp"
+                app:rippleColor="#03A9F4" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

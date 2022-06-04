@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable-v24/selector.xml" value="0.152" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/bg_btn_primary.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/bg_edit_text.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_add.xml" value="0.1215" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1215" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_info.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_news.xml" value="0.1215" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/ic_spinner.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/drawable/spinner_background.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_berita.xml" value="0.25" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_input_pelaporan.xml" value="0.24635416666666668" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_input_pembayaran.xml" value="0.24635416666666668" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_list_berita.xml" value="0.25" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_list_pelaporan.xml" value="0.264" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_list_pembayaran.xml" value="0.2" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_pelaporan.xml" value="0.25" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_pembayaran.xml" value="0.2" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/menu/menu_logout.xml" value="0.25" />
+        <entry key="..\:/FTH-file/Kuliyeah/PrakAndroid2/InsikostMobile/app/src/main/res/menu/menu_navigation.xml" value="0.1078125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

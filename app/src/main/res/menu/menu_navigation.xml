@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Profil"
+        android:title="Profil"
+        android:icon="@drawable/ic_profile"/>
+    <item
+        android:id="@+id/Berita"
+        android:title="Berita"
+        android:icon="@drawable/ic_berita"/>
+
+    <item
+        android:id="@+id/Pelaporan"
+        android:title="Pelaporan"
+        android:icon="@drawable/ic_report"/>
+    <item
+        android:id="@+id/Payment"
+        android:title="Pembayaran"
+        android:icon="@drawable/ic_pay"
+/>
+</menu>
